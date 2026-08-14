@@ -1,0 +1,4 @@
+id,name,flavors,brew_methods,acidity,body,sweetness,filter_paper_id,filter_paper,grind_id,grind_service
+aurora,Aurora Highlands,berry;citrus,v60;aeropress,7,5,8,v60-02,V60 02 Paper,grind-v60,V60 Medium-Fine Grind
+solstice,Solstice Estate,berry;chocolate,v60;chemex,6,6,7,v60-02,V60 02 Paper,grind-v60,V60 Medium-Fine Grind
+harbor,Harbor Decaf,citrus;chocolate,v60;french-press,5,7,6,v60-02,V60 02 Paper,grind-v60,V60 Medium-Fine Grind
