@@ -181,11 +181,10 @@ func companionRecommendations(profile Profile, top Recommendation, beans []Bean)
 
 func takeTop(candidates []Recommendation, limit int) []Recommendation {
 	end := min(limit, len(candidates))
-	start := 1
-	if start >= end {
+	if end == 0 {
 		return []Recommendation{}
 	}
-	return candidates[start:end]
+	return candidates[:end]
 }
 
 func intersects(left, right []string) bool {
